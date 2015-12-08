@@ -51,13 +51,20 @@ Plugin 'altercation/vim-colors-solarized'
 :inoremap [ []<left>
 
 
+" ++++++++++ PLUG-IN Settings ++++++++++
+let g:ctrlp_match_window = 'bottom,order:ttb'
+let g:ctrlp_switch_buffer = 0
+let g:ctrlp_working_path_mode = 0
+let g:airline#extensions#tabline#enabled = 1
+
+
 " +++++++++++ TAB & SPACES +++++++++++
 
 :set tabstop=4				" number of visual spaces per TAB
 :set softtabstop=4			" number of spaces in tab when editing
 :set smartindent
 :set autoindent
-
+set foldlevelstart=10		" open most folds by default
 
 " ++++++++++ Searchin ++++++++++
 
