@@ -36,6 +36,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'scrooloose/nerdtree'
 
 
 " ++++++++++ UI CONFIG ++++++++++
@@ -56,6 +57,11 @@ let g:ctrlp_match_window = 'bottom,order:ttb'
 let g:ctrlp_switch_buffer = 0
 let g:ctrlp_working_path_mode = 0
 let g:airline#extensions#tabline#enabled = 1
+nnoremap <F5> :bp<CR>
+nnoremap <F6> :bn<CR>
+nnoremap <F7> :bd<CR>
+nnoremap <F3> :NERDTree<CR>
+nnoremap <F4> :NERDTreeClose<CR>
 
 
 " +++++++++++ TAB & SPACES +++++++++++
