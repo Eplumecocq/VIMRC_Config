@@ -37,6 +37,7 @@ Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/nerdtree'
+Plugin 'raimondi/delimitmate'
 
 
 " ++++++++++ UI CONFIG ++++++++++
